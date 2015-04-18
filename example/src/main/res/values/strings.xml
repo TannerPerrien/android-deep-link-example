@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Deep Link Example</string>
+
+    <string name="message">
+        Deep link with one of the following:\n\n
+        adb shell am start -a android.intent.action.VIEW -d "tannerperrien:///profile"\n\n
+        adb shell am start -a android.intent.action.VIEW -d "tannerperrien:///profile/3"\n\n
+        adb shell am start -a android.intent.action.VIEW -d "http://tannerperrien.com/profile"\n\n
+        adb shell am start -a android.intent.action.VIEW -d "http://tannerperrien.com/settings"
+    </string>
+</resources>
